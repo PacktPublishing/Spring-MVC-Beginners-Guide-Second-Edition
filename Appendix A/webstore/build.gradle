@@ -1,0 +1,31 @@
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+repositories {
+	mavenCentral() //add central maven repo to your buildfile
+}
+
+dependencies {
+	compile 'org.springframework:spring-webmvc:4.3.0.RELEASE',
+			'javax.servlet:jstl:1.2',
+			'org.springframework:spring-jdbc:4.3.0.RELEASE',
+			'org.hsqldb:hsqldb:2.3.2',
+			'commons-fileupload:commons-fileupload:1.2.2',
+			'org.apache.commons:commons-io:1.3.2',
+			'org.springframework:spring-oxm:4.3.0.RELEASE',
+			'org.codehaus.jackson:jackson-mapper-asl:1.9.10',
+			'com.fasterxml.jackson.core:jackson-databind:2.8.0',
+			'log4j:log4j:1.2.17',
+			'org.springframework.security:spring-security-config:4.1.1.RELEASE',
+			'org.springframework.security:spring-security-web:4.1.1.RELEASE',
+			'org.hibernate:hibernate-validator:5.2.4.Final',
+			'org.springframework.webflow:spring-webflow:2.4.2.RELEASE',
+			'org.apache.tiles:tiles-extras:3.0.5'
+	
+	providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+	
+	testCompile 'junit:junit:4.12',
+				'org.springframework:spring-test:4.3.0.RELEASE',
+				'javax.servlet:jsp-api:2.0',
+				'com.jayway.jsonpath:json-path-assert:2.2.0'
+}
