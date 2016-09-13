@@ -7,8 +7,8 @@ The book is for Java developers who want to exploit Spring MVC and its features 
 
 Related Books
 
-*[Instant Spring Tool Suite](https://www.packtpub.com/application-development/instant-spring-tool-suite?utm_source=GitHub&utm_medium=Repo&utm_campaign=9781782164142)
+*[Instant Spring Tool Suite](https://www.packtpub.com/application-development/instant-spring-tool-suite?utm_source=github&utm_medium=repository&utm_campaign=9781782164142)
 
-*[Spring Web Services 2 Cookbook](https://www.packtpub.com/web-development/spring-web-services-2-cookbook?utm_source=GitHub&utm_medium=Repo&utm_campaign=9781849515825)
+*[Spring Web Services 2 Cookbook](https://www.packtpub.com/web-development/spring-web-services-2-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781849515825)
 
-*[Spring Security 3.1](https://www.packtpub.com/application-development/spring-security-31?utm_source=GitHub&utm_medium=Repo&utm_campaign=9781849518260)
+*[Spring Security 3.1](https://www.packtpub.com/application-development/spring-security-31?utm_source=github&utm_medium=repository&utm_campaign=9781849518260)
